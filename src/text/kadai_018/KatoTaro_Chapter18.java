@@ -4,17 +4,15 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 	
 //	継承
 	KatoTaro_Chapter18(){
-		super("Kato");
+		super();
 		
 	}
 	
-//	givenName
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
+	public void setGivenName() {
 	}
 	
 	void eachIntroduce() {
-		System.out.println("名前は加藤 " + this.givenName + "です");
+		System.out.println("名前は加藤太郎です");
 		commonIntroduce();
 		System.out.println("Javaが得意です");
 		

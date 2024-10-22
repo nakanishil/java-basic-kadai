@@ -1,13 +1,9 @@
 package text.kadai_018;
 
 abstract public class Kato_Chapter18 {
-	String familyName = ""; // 姓
-	String givenName = ""; // 名
-	String address = ""; // 住所
 	
 	
-	Kato_Chapter18(String familyName)  {
-		this.familyName = familyName;
+	Kato_Chapter18()  {
 	}
 	
 //	共通の紹介を出力
