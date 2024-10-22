@@ -6,13 +6,14 @@ public class Car_Chapter15 {
 	private int speed = 10;// ギアチェンジ後の速度を表す
 	
 //	初期化
-	public Car_Chapter15(int gear) {
-		this.gear = gear;
+	public Car_Chapter15() {
+		
 	}
 	
 //	ギアの値により速度を変える
 	public void gearChange(int afterGear) {
-		switch(gear) {
+		this.gear = afterGear;
+		switch(afterGear) {
 		case 1  -> this.speed = 10;
 		case 2  -> this.speed = 20;
 		case 3  -> this.speed = 30;
